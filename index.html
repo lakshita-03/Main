@@ -86,39 +86,93 @@
             </div>
         </section>
 
-        <!-- Experience Section -->
-        <section id="experience" class="scroll-mt-20">
-            <h2 class="text-2xl md:text-3xl font-bold mb-8 border-l-4 border-purple-500 pl-4">Experience</h2>
-            <div class="grid gap-6">
-                <!-- Colliers / IndiGo Role -->
-                <div class="glass-card rounded-2xl p-6 md:p-8 transition-all duration-300">
-                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
-                        <div class="flex items-center gap-4">
-                            <!-- IndiGo logo badge -->
-                            <div class="w-12 h-12 rounded-xl bg-blue-950/60 border border-blue-500/30 flex items-center justify-center overflow-hidden">
-                                <img src="WEBSITE/indigo.jpg" alt="IndiGo logo" class="w-full h-full object-contain p-1" />
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold text-white">Technical Executive (MIS)</h3>
-                                <p class="text-purple-400 font-medium">IndiGo via Colliers International</p>
-                            </div>
-                        </div>
-                        <span class="text-xs font-semibold px-3 py-1 rounded-full bg-purple-950/60 text-purple-300 border border-purple-500/20 w-fit">
-                            Current Role
-                        </span>
-                    </div>
-                    <p class="text-gray-300 text-sm md:text-base font-light mb-6">
-                        Handling reporting, data tracking, documentation, and ESG-related information management to ensure seamless operational monitoring and compliance.
-                    </p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="text-xs px-3 py-1 rounded-lg bg-white/5 text-gray-300 border border-white/5">MIS Reporting</span>
-                        <span class="text-xs px-3 py-1 rounded-lg bg-white/5 text-gray-300 border border-white/5">Data Tracking</span>
-                        <span class="text-xs px-3 py-1 rounded-lg bg-white/5 text-gray-300 border border-white/5">ESG Compliance</span>
-                        <span class="text-xs px-3 py-1 rounded-lg bg-white/5 text-gray-300 border border-white/5">Documentation</span>
-                    </div>
+        
+<!-- Experience Section -->
+<section id="experience" class="scroll-mt-20">
+    <h2 class="text-2xl md:text-3xl font-bold mb-8 border-l-4 border-purple-500 pl-4">
+        Experience
+    </h2>
+
+    <div class="glass-card rounded-2xl p-6 md:p-8 transition-all duration-300">
+
+        <div class="flex flex-col md:flex-row gap-8 md:gap-10 items-start">
+
+            <!-- Left Side: Large IndiGo Image -->
+            <div class="w-full md:w-2/5 flex-shrink-0">
+                <div class="w-full h-56 md:h-72 rounded-xl overflow-hidden border border-white/10 bg-blue-950/30">
+                    <img
+                        src="WEBSITE/indigo.jpg"
+                        alt="IndiGo"
+                        class="w-full h-full object-contain p-4"
+                    />
                 </div>
             </div>
-        </section>
+
+            <!-- Right Side: Experience Details -->
+            <div class="flex-1 min-w-0">
+
+                <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-5">
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-white mb-2">
+                            Technical Executive (MIS)
+                        </h3>
+
+                        <p class="text-purple-400 font-semibold">
+                            IndiGo via Colliers International
+                        </p>
+                    </div>
+
+                    <span class="text-xs font-semibold px-3 py-1 rounded-full bg-purple-950/60 text-purple-300 border border-purple-500/20 w-fit flex-shrink-0">
+                        Current Role
+                    </span>
+                </div>
+
+                <p class="text-gray-400 text-sm mb-5">
+                    Supporting operational reporting, data management, and ESG/EHS documentation to facilitate monitoring and compliance.
+                </p>
+
+                <!-- Key Responsibilities -->
+                <h4 class="text-sm font-semibold text-white mb-3">
+                    Key Responsibilities
+                </h4>
+
+                <ul class="space-y-3 text-gray-300 text-sm md:text-base leading-relaxed list-disc pl-5 marker:text-purple-400">
+
+                    <li>
+                        Prepare accurate weekly and monthly MIS reports by analyzing and consolidating operational data on schedule.
+                    </li>
+
+                    <li>
+                        Maintain structured datasets and Excel-based trackers to streamline operational reporting.
+                    </li>
+
+                    <li>
+                        Validate, analyze, and document <strong class="font-bold text-white">750+ ESG and EHS data records</strong> to support ISO audits and compliance.
+                    </li>
+
+                </ul>
+
+                <!-- Skills Tags -->
+                <div class="flex flex-wrap gap-2 mt-6 pt-5 border-t border-white/5">
+                    <span class="text-xs px-3 py-1 rounded-lg bg-white/5 text-gray-300 border border-white/5">
+                        MIS Reporting
+                    </span>
+                    <span class="text-xs px-3 py-1 rounded-lg bg-white/5 text-gray-300 border border-white/5">
+                        Excel Trackers
+                    </span>
+                    <span class="text-xs px-3 py-1 rounded-lg bg-white/5 text-gray-300 border border-white/5">
+                        ESG & EHS
+                    </span>
+                    <span class="text-xs px-3 py-1 rounded-lg bg-white/5 text-gray-300 border border-white/5">
+                        ISO Compliance
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
 
         <!-- Projects Section -->
         <section id="projects" class="scroll-mt-20">
@@ -145,7 +199,7 @@
                     </div>
                     
                     <!-- Tools Used -->
-                    <div class="flex flex-wrap gap-3 pt-2 border-t border-white/5">
+                    <div class="flex flex-wrap gap-9 pt-2 border-t border-white/5">
                         <span class="text-xs px-2.5 py-1 rounded bg-purple-950/40 text-purple-300 border border-purple-500/20">XGBoost</span>
                         <span class="text-xs px-2.5 py-1 rounded bg-purple-950/40 text-purple-300 border border-purple-500/20">FastAPI & n8n</span>
                         <span class="text-xs px-2.5 py-1 rounded bg-purple-950/40 text-purple-300 border border-purple-500/20">Pandas</span>
